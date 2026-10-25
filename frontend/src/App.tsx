@@ -8,7 +8,7 @@ function App() {
   const [status, setStatus] = useState<Status>('loading')
 
   useEffect(() => {
-    getHello()
+    getHooray()
       .then((data) => {
         setMessage(data.message)
         setStatus('ok')

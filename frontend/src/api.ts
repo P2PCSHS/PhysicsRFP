@@ -22,3 +22,8 @@ export interface HelloResponse {
 export function getHello(): Promise<HelloResponse> {
   return apiGet<HelloResponse>('/hello')
 }
+
+export function getHooray(): Promise<HelloResponse> {
+  return apiGet<HelloResponse>('/hooray')
+}
+
