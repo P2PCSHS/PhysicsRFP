@@ -26,4 +26,3 @@ export function getHello(): Promise<HelloResponse> {
 export function getHooray(): Promise<HelloResponse> {
   return apiGet<HelloResponse>('/hooray')
 }
-
