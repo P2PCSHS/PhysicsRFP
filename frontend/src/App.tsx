@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { getHello } from './api'
+import { getHooray } from './api'
 
 type Status = 'loading' | 'ok' | 'error'
 
