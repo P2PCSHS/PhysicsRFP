@@ -10,7 +10,7 @@ api = Blueprint("api", __name__)
 
 @api.get("/hello")
 def hello():
-    return jsonify({"message": "Hello from Flask!"})
+    return jsonify({"message": "Hello from Flask! Hooray!!!"})
 
 
 @api.get("/health")
